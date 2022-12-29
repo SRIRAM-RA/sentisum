@@ -31,7 +31,8 @@ I developed the outer layer of the design using Normal `CSS` but the funcitonali
 `Note` - I made some changes to the design so that it would be blissful to look.
 
 ## Project link 
-    This project was developed and hosted in vercel. [Sentisum Task link](https://sentisum.vercel.app/)
+    
+This project was developed and hosted in vercel. [Sentisum Task link](https://sentisum.vercel.app/).
 
 
 # Installation Guide (Provided by npm)
