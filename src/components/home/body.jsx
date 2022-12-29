@@ -1,11 +1,12 @@
 import React, {Component} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faPlayCircle, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faFloppyDisk } from "@fortawesome/free-solid-svg-icons";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import {connect} from 'react-redux';
 import { createRef } from "react";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 
 class Body1 extends Component{
@@ -34,8 +35,9 @@ class Body1 extends Component{
 
  
     addfilter = () =>{
+        document.getElementById("no-filter").classList.add('hidden')
         var menu =document.getElementById('menu')
-            menu.classList.remove('hidden')
+        menu.classList.remove('hidden')
     }
 
     tagvalues = (e) =>{
@@ -837,6 +839,9 @@ class Body1 extends Component{
     
     handleClickout1 = (event) => {
         if (this.wrapperRef && !this.wrapperRef.current.contains(event.target)) {
+                if((this.state.zendesk.length === 0) && (this.state.intercom.length === 0)){
+                    document.getElementById("no-filter").classList.remove('hidden')
+                }
                 document.getElementById("menu").classList.add('hidden')
         }
     }
@@ -881,10 +886,10 @@ class Body1 extends Component{
                             <h3 id="h31">No filters applied</h3>
                             <h3 id="h32">Apply filters or select a view</h3>
                             <img src="/images/Group 79087.png" alt="no filter" id="nofilter"/>
-                            <div className="tutorial">
-                                <img src="./images/circle.png" alt="circle"/>
-                                <h3>Quick tutorial of filters</h3>
-                            </div>
+                            <button type="button" className="tutorial">
+                                <FontAwesomeIcon icon={faPlayCircle} />&nbsp;
+                                <h3 className="font-medium lg:font-small"> Ouick tutorial of filters</h3>
+                            </button>
                         </div>
                         <div className="filter-apply-after flex flex-col grow" id="after-filter">
                             <div id="zen">
