@@ -8,6 +8,27 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends Component{
 
+    constructor(){
+        super()
+
+        this.state = {
+            active: false
+        }
+        this.changetabs = this.changetabs.bind(this)
+    }
+
+    changetabs = (e) => {
+        if(e.target.id === 'summaryactive'){
+            this.setState({
+                active:false
+            })
+        }else if (e.target.id === 'discoveractive'){
+            this.setState({
+                active:true
+            })
+        }
+    }
+
     render(){
         return(
             <div className="Navbar">
@@ -21,10 +42,10 @@ class Navbar extends Component{
                         </div>
 
                         <div className="menu-items">
-                            <button type="submit" className="summary active">
+                            <button type="button" className={this.state.active ? "summary" : "summary active"} id="summaryactive" onClick={this.changetabs.bind(this)}>
                                 Summary
                             </button>
-                            <button type="submit" className="discover">
+                            <button type="button" className={this.state.active ? "discovery active": "discovery"} id="discoveractive" onClick={this.changetabs.bind(this)}>
                                 Discover
                             </button>
                         </div>
