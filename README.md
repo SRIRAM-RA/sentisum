@@ -26,7 +26,7 @@ I developed the outer layer of the design using Normal `CSS` but the funcitonali
 6. I used two components
     1. `<Navbar />`
     2. `<Body />`
-7. I used `Redux` in order to manage the state and to optimize it. I gathered the filter data from the redux reducers to know how reux works.
+7. I used `Redux` in order to manage the state and to optimize it. I gathered the filter data from the redux reducers to know how redux works.
 
 `Note` - I made some changes to the design so that it would be blissful to look
 
