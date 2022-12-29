@@ -1,0 +1,73 @@
+.Navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+ul{
+    /* padding: 20px; */
+    background: #1d3557;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'satoshi';
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+li .logo-filter{
+    display: flex;
+    width: 13%;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.logo-filter .drop:hover{
+    color: #F76951;
+    cursor: pointer;
+}
+
+.menu-items{
+    width: 15%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+
+.menu-items button{
+    width: 50%;
+    padding: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'satoshi';
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.menu-items button:hover{
+    cursor: pointer;
+    border-bottom: 4px solid #F76951;
+}
+
+.active{
+    border-bottom: 4px solid #F76951 !important;
+}
+
+.settings{
+    font-size: 20px;
+    align-items: center;
+    padding: 17px;
+}
+
+.settings .gear:hover{
+    color: #F76951;
+    cursor: pointer;
+}
