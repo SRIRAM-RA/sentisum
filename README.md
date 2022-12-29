@@ -28,7 +28,7 @@ I developed the outer layer of the design using Normal `CSS` but the funcitonali
     2. `<Body />`
 7. I used `Redux` in order to manage the state and to optimize it. I gathered the filter data from the redux reducers to know how redux works.
 
-`Note` - I made some changes to the design so that it would be blissful to look
+`Note` - I made some changes to the design so that it would be blissful to look.
 
 ## Project link 
     This project was developed and hosted in vercel. [Sentisum Task link](https://sentisum.vercel.app/)
@@ -37,6 +37,8 @@ I developed the outer layer of the design using Normal `CSS` but the funcitonali
 # Installation Guide (Provided by npm)
 
 # Getting Started with Create React App
+
+`Clone` and `Pull` this repository. Proceed to file directory and Enter command `npm start` on the terminal. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
