@@ -1,3 +1,37 @@
+
+This project was developed using React JS library, along with `Tailwind CSS` styling library.
+
+I developed the outer layer of the design using Normal `CSS` but the funcitonalities contents were developed using `Tailwind CSS`.
+
+## Decisions made and Logics thought on viewing the Design
+
+1. Layout of the application (i.e) how the application should be displayed to the user
+2. In how much ways the design can be developed as an application. For example: I first created the filterbars as a fixed one to the left. Then after sometime I got an idea on how to make that interactable. 
+3. How to use handlers. I faced a situation on whether to use multiple handlers or to use a single handler and access the elements through the ID. I went with the later one. 
+4. I thought of various logics while developing the app. 
+    1. First on how to select the categories. 
+    2. Second is how to select the filter tags. 
+    3. How to select the values.
+    4. How to select all values.
+    5. How to display the values selected.
+    6. How to make these above mentioned things interactively. 
+    7. On how to structure my application.
+5. I also developed the application in Two different themes.
+    1. Like the one mentioned in the Design
+    2. I made some color theme changes and developed using that.
+6. I used two components
+    1. `<Navbar />`
+    2. `<Body />`
+7. I used `Redux` in order to manage the state and to optimize it. I gathered the filter data from the redux reducers to know how reux works.
+
+### Note - `I made some changes to the design so that it would be blissful to look`
+
+## Project link 
+    This project was developed and hosted in vercel. [Sentisum Task link](https://sentisum.vercel.app/)
+
+
+# Installation Guide (Provided by npm)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +102,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
