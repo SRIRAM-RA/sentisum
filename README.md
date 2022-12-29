@@ -18,13 +18,17 @@ I developed the outer layer of the design using Normal `CSS` but the funcitonali
     7. On how to structure my application.
 5. I also developed the application in Two different themes.
     1. Like the one mentioned in the Design
+        ![Snap1](https://user-images.githubusercontent.com/55801381/210009266-3d229870-0a2a-4ea6-b8ea-3f21b92be2c9.png)
+        ![Snap2](https://user-images.githubusercontent.com/55801381/210009290-c94772a3-eee8-4e80-98a1-558142fd6286.png)
     2. I made some color theme changes and developed using that.
+        ![image](https://user-images.githubusercontent.com/55801381/210009320-83d656ba-341e-4537-acc9-5b48e4dfcb63.png)
+        ![image](https://user-images.githubusercontent.com/55801381/210009361-bc5865aa-6d9d-4e90-bcf3-759f179b7b59.png)
 6. I used two components
     1. `<Navbar />`
     2. `<Body />`
 7. I used `Redux` in order to manage the state and to optimize it. I gathered the filter data from the redux reducers to know how reux works.
 
-### Note - `I made some changes to the design so that it would be blissful to look`
+`Note` - I made some changes to the design so that it would be blissful to look
 
 ## Project link 
     This project was developed and hosted in vercel. [Sentisum Task link](https://sentisum.vercel.app/)
