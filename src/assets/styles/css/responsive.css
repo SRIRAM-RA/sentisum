@@ -9,6 +9,12 @@
         margin-left: 34%;
         width: 60%;
     }
+    .contents-outer-box{
+        flex-direction: column;
+    }
+    .content-box{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 768px){
