@@ -44,6 +44,7 @@
 
 .inner-box2 button{
     width: 40%;
+    cursor: normal;
 }
 
 .inner-box2 button label{
@@ -53,6 +54,7 @@
     font-weight: 500;
     padding: 15px;
     padding-bottom: 0;
+    cursor: pointer;
 }
 
 .show{
@@ -222,7 +224,7 @@ input[type='search']{
     text-align: center;
     position: sticky;
     top: 50%;
-    left: 100%;
+    left: -100%;
     transform: translate(0, -50%);
     z-index: 10;
 }
